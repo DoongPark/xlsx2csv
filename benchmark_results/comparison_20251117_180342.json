@@ -1,0 +1,44 @@
+[
+  {
+    "file": "medium_multi_sheet.xlsx",
+    "file_size_mb": 8.876299858093262,
+    "num_sheets": 5,
+    "benchmarks": [
+      {
+        "method": "sequential",
+        "avg_time": 3.876417636871338,
+        "min_time": 3.8702001571655273,
+        "max_time": 3.8826351165771484,
+        "avg_memory": 0.21875,
+        "times": [
+          3.8826351165771484,
+          3.8702001571655273
+        ]
+      },
+      {
+        "method": "parallel",
+        "num_processes": 2,
+        "avg_time": 2.408029079437256,
+        "min_time": 2.4059181213378906,
+        "max_time": 2.410140037536621,
+        "avg_memory": 0.9765625,
+        "times": [
+          2.410140037536621,
+          2.4059181213378906
+        ]
+      },
+      {
+        "method": "parallel",
+        "num_processes": 4,
+        "avg_time": 1.6383310556411743,
+        "min_time": 1.6373322010040283,
+        "max_time": 1.6393299102783203,
+        "avg_memory": 0.0390625,
+        "times": [
+          1.6393299102783203,
+          1.6373322010040283
+        ]
+      }
+    ]
+  }
+]
